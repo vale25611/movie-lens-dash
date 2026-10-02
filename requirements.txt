@@ -1,15 +1,3 @@
-Task 1: The 4 Required Visualizations
-Direct your AI assistant to answer each of these four questions with a chart. These are the same four questions you'll revisit by hand next week, so answer them as they're written — don't substitute your own.
-
-Question 1 — Genre Breakdown: What's the distribution of genres among the movies that were rated? (Movies can have multiple genres — have the AI explain how it handled that before it counts anything.)
-
-Question 2 — Genre Satisfaction: Which genres have the highest average rating? Which have the lowest?
-
-Question 3 — Ratings Over Time: How has the mean rating changed across movie release years?
-
-Question 4 — Best Movies, With a Floor: What are the top 5 best-rated movies, once you only count movies with at least 50 ratings? What changes if you raise that floor to 150?
-
-⚠️ A Note on "Ambiguity" by Design:
-If some of these questions feel slightly open to interpretation (e.g., how to compute a "mean rating," how to define a "floor," or it spawns up further questions like how to handle noisy outliers), that is intentional. Just look stuff up! Disambiguate the questions on your own.
-
-You choose — or let the AI choose and then judge — what chart type answers each question best. That's on purpose: you don't know chart-craft formally yet, so this is where you'll see the AI make a default choice, good or bad, and you'll be asked to evaluate it next week once you do know better.
+streamlit>=1.38.0
+pandas>=2.2.0
+plotly>=5.24.0
